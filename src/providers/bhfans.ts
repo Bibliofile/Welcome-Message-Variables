@@ -16,4 +16,5 @@ export async function resolve (variables: Map<string, string>): Promise<void> {
   variables.set('$bhfans_owner', getText('a[href^="profile.php"]'))
   variables.set('$bhfans_votes', getText('#votes'))
   variables.set('$bhfans_description', getText('#info table:last-child tr:last-child td'))
+  variables.set('$bhfans_server', getText('#info td:last-child'))
 }
