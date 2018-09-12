@@ -1,0 +1,10 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "no-inferrable-types": [
+      true,
+      "ignore-params",
+      "ignore-properties"
+    ]
+  }
+}
